@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Latihan Soal - STATMATE</title>
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+<nav class="navbar">
+
+    <div class="logo">
+        <i class="fa-solid fa-chart-column"></i>
+        <h2>STATMATE</h2>
+    </div>
+
+</nav>
+</header>
+
+<section class="sub-hero">
+
+    <h1>📝 Latihan Soal</h1>
+
+    <p>
+        Kerjakan soal berikut untuk menguji
+        pemahamanmu tentang statistika.
+    </p>
+
+</section>
+
+<section class="latihan-container">
+
+<div class="info-latihan">
+
+    <div id="timer">
+        ⏰ Waktu:
+        <span id="waktu">
+            10:00
+        </span>
+    </div>
+
+    <div class="progress">
+        <div
+            class="progress-bar"
+            id="progressBar">
+        </div>
+    </div>
+
+</div>
+
+<div class="soal-card">
+
+<h2 id="nomorSoal">
+    Soal 1
+</h2>
+
+<p id="pertanyaan">
+</p>
+
+<div id="pilihan">
+</div>
+
+<button onclick="cekJawaban()">
+    Jawab
+</button>
+
+</div>
+
+</section>
+
+<section
+id="hasilAkhir"
+style="display:none;">
+
+<div class="card-kalkulator">
+
+<h2>
+🎉 Latihan Selesai
+</h2>
+
+<h3 id="nilaiAkhir"></h3>
+
+<div id="pembahasan"></div>
+
+ <a href="kuis/index.html" class="btn-kuis">
+            🏆 Lanjut ke Kuis
+        </a>
+
+</div>
+
+</section>
+
+<script src="js/script.js"></script>
+</body>
+</html>

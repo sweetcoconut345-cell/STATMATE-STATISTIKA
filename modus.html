@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Modus - STATMATE</title>
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+<nav class="navbar">
+
+    <div class="logo">
+        <i class="fa-solid fa-chart-column"></i>
+        <h2>STATMATE</h2>
+    </div>
+
+    <ul class="menu">
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="materi.html">Materi</a></li>
+        <li><a href="#">Latihan</a></li>
+        <li><a href="#">Kuis</a></li>
+    </ul>
+
+</nav>
+</header>
+
+<section class="sub-hero">
+
+    <h1>📊 Modus</h1>
+
+    <p>
+        Pelajari cara menentukan data yang
+        paling sering muncul.
+    </p>
+
+</section>
+
+<section class="isi-materi">
+
+<div class="card-materi">
+
+    <img src="image/modus.jpg">
+
+    <h2>Apa itu Modus?</h2>
+
+    <p>
+        Modus adalah nilai yang paling sering
+        muncul dalam suatu kumpulan data.
+    </p>
+
+    <div class="rumus">
+
+        Modus =
+        Data yang frekuensinya paling banyak.
+
+    </div>
+
+</div>
+
+</section>
+
+<section class="contoh">
+
+<div class="card-contoh">
+
+<h2>Contoh Soal</h2>
+
+<p>
+Data:
+5, 7, 8, 5, 6, 5, 8
+</p>
+
+<p>
+Frekuensi:
+5 muncul 3 kali,
+8 muncul 2 kali,
+6 dan 7 muncul 1 kali.
+</p>
+
+<h3>
+Modus = 5
+</h3>
+
+</div>
+
+</section>
+
+<section class="kalkulator">
+
+<div class="card-kalkulator">
+
+<h2>🔢 Coba Sendiri</h2>
+
+<p>
+Masukkan data dipisahkan dengan koma.
+</p>
+
+<input
+type="text"
+id="inputModus"
+placeholder="Contoh: 5,7,8,5,6,5,8">
+
+<button onclick="hitungModus()">
+Hitung Modus
+</button>
+
+<h3 id="hasilModus"></h3>
+
+<div id="frekuensiData"></div>
+
+</div>
+
+</section>
+
+<div id="diagramContainer"></div>
+
+<section class="next">
+
+<a href="latihan.html"
+class="btn-next">
+
+Lanjut ke Latihan →
+
+</a>
+
+</section>
+
+<footer>
+
+<h3>STATMATE</h3>
+
+<p>
+Media Pembelajaran Statistika
+Kelas VIII SMP
+</p>
+
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
